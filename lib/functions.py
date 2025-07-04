@@ -4,7 +4,7 @@ def greet_programmer():
     print("Hello, programmer!")
 
 def greet(name):
-    return f"Hello, {name}!"
+    print (f"Hello, {name}!")
 
 def greet_with_default(name="programmer"):
     print(f"Hello, {name}!")
@@ -16,7 +16,7 @@ def halve(number):
     if not isinstance(number, (int, float)):
         return None
     else:
-        return f"{number / 2:.2f}"
+        return number / 2
 
 greet_programmer()
 
